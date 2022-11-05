@@ -12,7 +12,7 @@ export default defineConfig({
       '/guide/': sidebarConfig(),
     },
   },
-  outDir: '../dist',
+  head: [['style', {}, '.VPImage{border-radius:24px}']],
 })
 
 function sidebarConfig() {

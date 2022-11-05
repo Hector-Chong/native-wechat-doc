@@ -15,7 +15,7 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/Hector-Chong/native-wechat
-      features:
+      
 features:
   - icon: ⚡️
     title: TurboModule

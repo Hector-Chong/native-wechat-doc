@@ -1,0 +1,37 @@
+{
+  "name": "native-wechat-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Document of Native Wechat",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": "https://github.com/Hector-Chong/native-wechat-doc",
+  "author": "Héctor Chong <i@hector.im> (https://github.com/Hector-Chong)",
+  "bugs": {
+    "url": "https://github.com/Hector-Chong/native-wechat-doc/issues"
+  },
+  "homepage": "https://github.com/Hector-Chong/native-wechat-doc#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.26",
+    "vue": "^3.2.41",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.0",
+    "cz-conventional-changelog": "3.3.0",
+    "commitizen": "^4.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/git-cz"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "exec < /dev/tty && npx cz --hook || true",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  }
+}

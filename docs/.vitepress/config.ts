@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Native Wechat',
+  title: 'Native WeChat',
   description: 'A TurboModule for supporting native APIs on Android and iOS.',
   themeConfig: {
     footer: {
@@ -21,7 +21,7 @@ function sidebarConfig() {
       text: 'Introduction',
       items: [
         {
-          text: 'Native Wechat',
+          text: 'Native WeChat',
           link: '/guide/native-wechat',
           activeMatch: '/guide/',
         },

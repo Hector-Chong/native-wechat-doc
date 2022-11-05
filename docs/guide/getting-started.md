@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Register SDK
-Before invoking any APIs, registering Native Wechat by invoking `registerApp` is essential.
+Before invoking any APIs, registering Native WeChat by invoking `registerApp` is essential.
 
 ```typescript
 import {registerApp} from 'native-wechat';
@@ -37,7 +37,7 @@ return <Button onClick={onButtonClicked}>
 </Button>
 ```
 
-Most APIs in Native Wechat are promisified. So is `sendAuthRequest` which will return a promise. When the user confirms the request on Wechat, the promise is resolved to be data with a code. All promisifed APIs return a generic type named `NativeWechatResponse`.
+Most APIs in Native WeChat are promisified. So is `sendAuthRequest` which will return a promise. When the user confirms the request on Wechat, the promise is resolved to be data with a code. All promisifed APIs return a generic type named `NativeWechatResponse`.
 
 ```typescript
 export type NativeWechatResponse<T = Record<string, unknown>> = {

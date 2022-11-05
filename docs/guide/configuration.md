@@ -2,7 +2,7 @@
 
 ## Code Modifications
 
-Native Wechat requires you to modify the native code for WeChat to handle some callbacks. For example, if a WePay payment is finished, React Native will not receive the payment status without modifications.
+Native WeChat requires you to modify the native code for WeChat to handle some callbacks. For example, if a WePay payment is finished, React Native will not receive the payment status without modifications.
 
 ## iOS
 

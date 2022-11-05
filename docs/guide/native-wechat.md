@@ -10,9 +10,9 @@ Especially, WeChat OpenSDK is something pain in the ass because of [shitty docs]
 
 ## Why
 
-- Native Wechat is new, and many libraries like it are no longer maintained and keep up with the latest WeChat.
-- Native Wechat supports both legacy and new React Native architecture.
-- Native Wechat is a TurboModule that supports lazy loading, allowing for faster app startup.
+- Native WeChat is new, and many libraries like it are no longer maintained and keep up with the latest WeChat.
+- Native WeChat supports both legacy and new React Native architecture.
+- Native WeChat is a TurboModule that supports lazy loading, allowing for faster app startup.
 - Supports TypeScript for better intellisense and easy-to-check typing errors.
 - All Apis are promisified.
 

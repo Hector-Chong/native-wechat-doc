@@ -2,7 +2,7 @@
 
 ## registerApp
 
-Before invoking any APIs, registering Native Wechat by invoking `registerApp` is essential.
+Before invoking any APIs, registering Native WeChat by invoking `registerApp` is essential.
 
 When invoking `registerApp`, there will be a listener to receive events from Wechat. `registerApp` returns a function to remove the listener, and no events will be received from Wechat.
 

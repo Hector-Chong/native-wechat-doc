@@ -6,7 +6,7 @@ hero:
   text: A TurboModule for React Native.
   tagline: Native Wechat is probably the first TurboModule for supporting WeChat APIs on Android and iOS.
   image:
-    src: /assets/image/native-wechat.png
+    src: /image/native-wechat.png
     alt: Native WeChat
   actions:
     - theme: brand
@@ -15,7 +15,7 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/Hector-Chong/native-wechat
-      
+
 features:
   - icon: ⚡️
     title: TurboModule

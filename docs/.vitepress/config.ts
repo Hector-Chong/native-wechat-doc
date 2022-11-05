@@ -11,6 +11,9 @@ export default defineConfig({
     sidebar: {
       '/guide/': sidebarConfig(),
     },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Hector-Chong/native-wechat' },
+    ],
   },
   head: [['style', {}, '.VPImage{border-radius:24px}']],
 })

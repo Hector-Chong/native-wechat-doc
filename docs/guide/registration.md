@@ -42,7 +42,9 @@ import {Button, Text} from 'react-native';
 import {verifyWechatCode} from '@/api/auth/wechat'
 
 useEffect(()=>{
-	registerApp('wx964290141ebe9b7b');
+  registerApp({
+    appid: "wx964290141ebe9b7b"
+  });
 }, [])
 
 const onButtonClicked = async () =>{

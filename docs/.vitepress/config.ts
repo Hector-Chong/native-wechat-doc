@@ -34,9 +34,19 @@ function sidebarConfig() {
           activeMatch: '/guide/installation',
         },
         {
+          text: 'Installation (Expo)',
+          link: '/guide/installation-expo',
+          activeMatch: '/guide/installation/expo',
+        },
+        {
           text: 'Configuration',
           link: '/guide/configuration',
           activeMatch: '/guide/configuration',
+        },
+        {
+          text: 'Configuration (Expo)',
+          link: '/guide/configuration-expo',
+          activeMatch: '/guide/configuration/expo',
         },
         {
           text: 'Getting Started',

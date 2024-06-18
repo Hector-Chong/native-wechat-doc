@@ -401,18 +401,3 @@ a
 
 The rest steps are the same as in the [iOS](/guide/configuration.html#ios) section.
 
-## Expo
-
-Open `AppDelegate.h` and import `WXApi.h` at the beginning.
-
-```objective-c
-#import <React/RCTBridgeDelegate.h>
-#import <UIKit/UIKit.h>
-#import "WXApi.h" 
-```
-
-After that, add the protocol `WXApiDelegate` to `EXAppDelegateWrapper`.
-
-```objective-c
-@interface AppDelegate : EXAppDelegateWrapper <UIApplicationDelegate, RCTBridgeDelegate, WXApiDelegate>
-```

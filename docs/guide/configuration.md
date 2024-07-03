@@ -174,6 +174,21 @@ The file will look like this:
 @end
 ```
 
+## iOS React Native 0.74 and above
+
+The modification of `AppDelegate.m` is the same as described above.
+
+Import two headers `WXApi.h` and `<React/RCTLinkingManager.h>`. And add `WXApiDelegate` to `RCTAppDelegate`.
+
+```objective-c
+#import "WXApi.h"
+#import <React/RCTLinkingManager.h>
+
+@interface AppDelegate : RCTAppDelegate<WXApiDelegate>
+
+@end
+```
+
 ## iOS (New Architecture)
 
 First, find `AppDelegate.m` inside `ios` folder, and rename it to `AppDelegate.mm`.
@@ -400,4 +415,5 @@ a
 ```
 
 The rest steps are the same as in the [iOS](/guide/configuration.html#ios) section.
+
 

@@ -7,7 +7,7 @@ Opens a Wechat Customer Service chat.
 ### Type
 
 ```typescript
-function launchMiniProgram(request: {corpid: string; url: string}): Promise<boolean>;
+function openCustomerService(request: {corpid: string; url: string}): Promise<boolean>;
 ```
 
 ### Parameters

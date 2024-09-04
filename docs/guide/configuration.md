@@ -43,6 +43,7 @@ public class WXEntryActivity extends Activity {
 package <Package Name>;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 public class WXPayEntryActivity extends Activity {
@@ -50,7 +51,19 @@ public class WXPayEntryActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        finish();
+        try {
+          Intent intent = getIntent();
+          Intent intentToBroadcast = new Intent();
+    
+          intentToBroadcast.setAction("com.hector.nativewechat.ACTION_REDIRECT_INTENT");
+          intentToBroadcast.putExtra("intent", intent);
+    
+          sendBroadcast(intentToBroadcast);
+    
+          finish();
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
     }
 }
 
